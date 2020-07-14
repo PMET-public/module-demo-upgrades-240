@@ -1,0 +1,3 @@
+path,scope,scope_code,value
+system/media_gallery/enabled,default,,1
+login_as_customer/general/enabled,default,,1

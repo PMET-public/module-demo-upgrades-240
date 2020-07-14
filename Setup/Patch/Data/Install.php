@@ -4,10 +4,10 @@
  * See COPYING.txt for license details.
  */
 
-namespace MagentoEse\Sample\Setup\Patch\Data;
+namespace MagentoEse\DemoUpgrades\Setup\Patch\Data;
 
 use Magento\Framework\Setup\Patch\DataPatchInterface;
-use MagentoEse\DemoUpgrades\Model\Process;
+use MagentoEse\DataInstall\Model\Process;
 
 class Install implements DataPatchInterface
 {
