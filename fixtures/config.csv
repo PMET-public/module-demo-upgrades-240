@@ -1,3 +1,7 @@
 path,scope,scope_code,value
 system/media_gallery/enabled,default,,1
 login_as_customer/general/enabled,default,,1
+web/secure/use_in_adminhtml,default,,1
+web/secure/use_in_frontend,default,,1
+web/secure/enable_upgrade_insecure,default,,1
+web/secure/enable_hsts,default,,1
