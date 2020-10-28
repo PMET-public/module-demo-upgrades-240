@@ -4,6 +4,9 @@
     <module name="MagentoEse_DemoUpgrades">
         <sequence>
                 <module name="MagentoEse_DataInstall"/>
+                <module name="Magento_MsiSourceStockSampleData"/>
+                <module name="Magento_ConfigurableSampleData"/>
+                <module name="MagentoEse_VeniaCmsSampleData"/>
             </sequence>
     </module>
 </config>
