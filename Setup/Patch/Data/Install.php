@@ -26,7 +26,7 @@ class Install implements DataPatchInterface
          *
          * the data files directory can be any directory in the root of the module, or a subdirectory (fixtures/grocery)
          */
-       $this->process->loadFiles('MagentoEse_DemoUpgrades');
+       $this->process->loadFiles(['filesource'=>'MagentoEse_DemoUpgrades']);
     }
 
     public static function getDependencies()
