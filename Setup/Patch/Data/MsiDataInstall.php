@@ -33,13 +33,13 @@ class MsiDataInstall implements DataPatchInterface
          */
 
        /**Only run if this is the demo instance */
-       if($this->moduleManager->isEnabled('MagentoEse_DemoAdminConfigurations')){
-        $this->process->loadFiles(['filesource'=>'MagentoEse_DemoUpgrades','load'=>'fixtures/msi_inventory/luma']);
-       }
-       /** Only run if venia catalog is installed */
-       if($this->moduleManager->isEnabled('MagentoEse_VeniaCatalogSampleData')){
-        $this->process->loadFiles(['filesource'=>'MagentoEse_DemoUpgrades','load'=>'fixtures/msi_inventory/venia']);
-       }
+    //    if($this->moduleManager->isEnabled('MagentoEse_DemoAdminConfigurations')){
+    //     $this->process->loadFiles(['filesource'=>'MagentoEse_DemoUpgrades','load'=>'msi_inventory/luma']);
+    //    }
+    //    /** Only run if venia catalog is installed */
+    //    if($this->moduleManager->isEnabled('MagentoEse_VeniaCatalogSampleData')){
+    //     $this->process->loadFiles(['filesource'=>'MagentoEse_DemoUpgrades','load'=>'msi_inventory/venia']);
+    //    }
       
     }
 
